@@ -83,7 +83,7 @@ function dataProcessing(data) {
   } else {
     const { height: cardHeight } = refs.gallery.firstElementChild.getBoundingClientRect();
     window.scrollBy({
-      top: cardHeight * 2 + 120,
+      top: cardHeight * 2,
       behavior: 'smooth',
     });
   }
